@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+
+    <!-- Emerald Badge Background -->
+    <path
+        android:pathData="M16,4 L80,4 A12,12 0 0,1 92,16 L92,80 A12,12 0 0,1 80,92 L16,92 A12,12 0 0,1 4,80 L4,16 A12,12 0 0,1 16,4 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="4"
+                android:startY="4"
+                android:endX="92"
+                android:endY="92"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#10B981" />
+                <item android:offset="0.55" android:color="#059669" />
+                <item android:offset="1.0" android:color="#047857" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Golden Sun Aura -->
+    <path
+        android:pathData="M48,46m-17,0a17,17 0 1,0 34,0a17,17 0 1,0 -34,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="48"
+                android:startY="29"
+                android:endX="48"
+                android:endY="63"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FDE047" />
+                <item android:offset="1.0" android:color="#F59E0B" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Sun rays -->
+    <!-- Top ray -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M46.5,20 L49.5,20 L49,27 L47,27 Z" />
+    <!-- Bottom ray -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M46.5,65 L49.5,65 L49,72 L47,72 Z" />
+    <!-- Left ray -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M22,44.5 L22,47.5 L29,47 L29,45 Z" />
+    <!-- Right ray -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M67,44.5 L67,47.5 L74,47 L74,45 Z" />
+    <!-- Diagonal Top-left -->
+    <path
+        android:fillColor="#FDE047"
+        android:pathData="M30,28 L32.5,26 L38,32 L36,34 Z" />
+    <!-- Diagonal Top-right -->
+    <path
+        android:fillColor="#FDE047"
+        android:pathData="M66,28 L63.5,26 L58,32 L60,34 Z" />
+
+    <!-- Top Discovery Diamond Star -->
+    <path
+        android:pathData="M48,19 L50,24.5 L55.5,26.5 L50,28.5 L48,34 L46,28.5 L40.5,26.5 L46,24.5 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="48"
+                android:startY="19"
+                android:endX="48"
+                android:endY="34"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFFBEB" />
+                <item android:offset="0.4" android:color="#FDE047" />
+                <item android:offset="1.0" android:color="#F59E0B" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Sprout Stem -->
+    <path
+        android:pathData="M48,70 C48,60 48,52 48,43 C48.5,43 49,52 49.5,70 Z"
+        android:fillColor="#ECFDF5" />
+
+    <!-- Left Sprout Leaf -->
+    <path
+        android:pathData="M48,54 C41,53 34,58 32,65 C39,67 46,62 48,54 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="32"
+                android:startY="54"
+                android:endX="48"
+                android:endY="65"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#A7F3D0" />
+                <item android:offset="1.0" android:color="#FFFFFF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Right Sprout Leaf -->
+    <path
+        android:pathData="M48,49 C55,46 64,50 66,57 C59,60 51,55 48,49 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="66"
+                android:startY="46"
+                android:endX="48"
+                android:endY="57"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#6EE7B7" />
+                <item android:offset="1.0" android:color="#FFFFFF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Sprout Earth Base -->
+    <path
+        android:pathData="M38,70 C38,68 58,68 58,70 C58,72 38,72 38,70 Z"
+        android:fillColor="#FEF3C7" />
+</vector>

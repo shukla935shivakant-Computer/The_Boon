@@ -1,0 +1,6 @@
+{
+  "name": "Boon",
+  "description": "Real-World Quests & Offline Growth - Transforming screen time into active curiosity, experiments, and healthy habits.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
